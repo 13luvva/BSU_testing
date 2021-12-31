@@ -7,7 +7,7 @@ import util.CommonConditions;
 import java.util.List;
 
 public class RwOnlineSchedulePageTest extends CommonConditions {
-    final static int NUMBER_OF_ROUTES = 7;
+    final static int NUMBER_OF_ROUTES = 3;
 
     @Test
     public void findActualRoutesFromOnlineScheduleTest() {
