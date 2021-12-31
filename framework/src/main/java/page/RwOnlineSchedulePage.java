@@ -24,6 +24,7 @@ public class RwOnlineSchedulePage extends AbstractPage {
 
     public RwOnlineSchedulePage openPage() {
         driver.get(PAGE_URL);
+        findElementByLocatorAndClick(By.xpath("//body"));
         LOGGER.log(Level.INFO, "Online schedule page is opened");
         return this;
     }
